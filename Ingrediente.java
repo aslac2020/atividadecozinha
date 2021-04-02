@@ -2,12 +2,10 @@ import java.util.Date;
 
 class Ingrediente{
 
-  public Ingrediente(String nome, Date dataValidade){
+  public Ingrediente(String nome){
 
     this.nome = nome;
-    this.dataValidade = dataValidade;
   }
 
   protected String nome;
-  protected Date dataValidade;
 }
